@@ -23,15 +23,15 @@ A simple and intuitive To-Do List app built with **React.js**. This project help
 ```bash
 git clone https://github.com/yourusername/react-todo-list.git
 cd react-todo-list
-
-2️⃣ Install dependencies:
-
+```
+### 2️⃣ Install dependencies:
+```bash
 npm install
-
-3️⃣ Start the development server:
-
+```
+### 3️⃣ Start the development server:
+```bash
 npm start
-
+```
 🎯 Contributions
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
