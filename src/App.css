@@ -1,0 +1,115 @@
+.todo-box{
+  text-align: center;
+  padding: 24px;
+  background: #202020;
+  border: 1px solid #373737;
+  border-radius: 8px;
+}
+
+.todo-box h1{
+  font-weight: 600;
+  font-size: 32px;
+  color: #BABABA;
+}
+
+.add-todo{
+  margin-top: 24px;
+  gap: 8px;
+  display: flex;
+  height: 56px;
+}
+
+.add-input{
+  background: transparent;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  padding: 16px 24px;
+  color: #BABABA;
+  font-weight: 400;
+  font-size: 20px;
+  outline: none;
+}
+
+.add-input::placeholder{
+  color: #BABABA;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.add-button{
+  background: #626ED9;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  padding: 16px;
+  color: #2c2c2c;
+  font-family: 400;
+  font-size: 20px;
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin-top: 24px;
+  gap: 8px;
+  list-style: none;
+  overflow: scroll;
+  max-height: 400px;
+}
+
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 16px;
+}
+
+.todo-item p{
+  color:  #BABABA;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.item-button-box{
+  display: flex;
+  gap: 8px;
+}
+
+.todo-done{
+  background: #ECBB5B;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.todo-undone{
+  background: #ecbc5b50;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.todo-remove{
+  background: #C64444;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.done{
+  background: #37373750;
+}
+
+.done p{
+  text-decoration: line-through;
+  color: #BABABA50;
+}
